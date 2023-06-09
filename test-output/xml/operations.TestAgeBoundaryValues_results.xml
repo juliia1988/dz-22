@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression for all functionality"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.023">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testWomanNotRetired"
+                time="0.004"
+                classname="operations.TestAgeBoundaryValues">
+            </testcase>
+            <testcase
+                name="testManNotRetired"
+                time="0.005"
+                classname="operations.TestAgeBoundaryValues">
+            </testcase>
+            <testcase
+                name="testWonamRetired"
+                time="0.010"
+                classname="operations.TestAgeBoundaryValues">
+            </testcase>
+            <testcase
+                name="testManRetired"
+                time="0.004"
+                classname="operations.TestAgeBoundaryValues">
+            </testcase>
+</testsuite>

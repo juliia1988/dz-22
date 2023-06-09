@@ -5,24 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a30df50-3e7c-4144-aafb-356c3c7ef9b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Woman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataproviders/TestDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/models/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/operations/TestAgeBoundaryValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/operations/TestAgeValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/operations/TestSurnameChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/smoke.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/CsvReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/listners/ValidValuesTestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/operations/TestAgeBoundaryValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/operations/TestAgeBoundaryValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/operations/TestAgeValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/operations/TestAgeValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -60,7 +55,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -70,103 +68,87 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestAgeValid.testAgeIsValid">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="allure serve target/allure-results " />
+      <command value="mvn install allure" />
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources/regression.xml (1)">
+    <configuration name="TestAgeValid.testAgeIsValid" type="TestNG" nameIsGenerated="true">
+      <log_file alias="logs" path="$PROJECT_DIR$" />
       <module name="dz-22" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="dz-22" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAgeBoundaryValues.testManNotRetired" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dz-21" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="operations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="operations" />
-      <option name="MAIN_CLASS_NAME" value="operations.TestAgeBoundaryValues" />
-      <option name="METHOD_NAME" value="testManNotRetired" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAgeBoundaryValues.testManRetired" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dz-21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="operations" />
-      <option name="MAIN_CLASS_NAME" value="operations.TestAgeBoundaryValues" />
-      <option name="METHOD_NAME" value="testManRetired" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAgeValid" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dz-21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="operations" />
-      <option name="MAIN_CLASS_NAME" value="operations.TestAgeValid" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAgeValid.testAgeIsInalid" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dz-21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="operations" />
-      <option name="MAIN_CLASS_NAME" value="operations.TestAgeValid" />
-      <option name="METHOD_NAME" value="testAgeIsInalid" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAgeValid.testAgeIsValid" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dz-21" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="operations" />
       <option name="MAIN_CLASS_NAME" value="operations.TestAgeValid" />
       <option name="METHOD_NAME" value="testAgeIsValid" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources/regression.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-22" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-21" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources/smoke.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-22" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/smoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources/smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-21" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/smoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-21" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -175,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestAgeValid.testAgeIsValid" />
-        <item itemvalue="TestNG.TestAgeValid" />
-        <item itemvalue="TestNG.TestAgeBoundaryValues.testManNotRetired" />
-        <item itemvalue="TestNG.TestAgeValid.testAgeIsInalid" />
-        <item itemvalue="TestNG.TestAgeBoundaryValues.testManRetired" />
+        <item itemvalue="TestNG./Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources/regression.xml (1)" />
+        <item itemvalue="TestNG./Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources/smoke.xml (1)" />
+        <item itemvalue="TestNG./Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources/smoke.xml" />
+        <item itemvalue="TestNG./Users/olenavoloshyna/IdeaProjects/dz-22/src/test/java/resources/regression.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -196,5 +178,8 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dz_22$_Users_olenavoloshyna_IdeaProjects_dz_22_src_test_java_resources_regression_xml.ic" NAME="$PROJECT_DIR$/src/test/java/resources/regression.xml Coverage Results" MODIFIED="1686050226464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
