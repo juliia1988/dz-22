@@ -1,11 +1,18 @@
 package operations;
 
 import dataproviders.TestDataProvider;
+import io.qameta.allure.Description;
+import io.qameta.allure.Story;
+import listners.ValidValuesTestListener;
 import org.example.Person;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-public class TestAgeValid {
 
+//@Listeners(ValidValuesTestListener.class)
+public class TestAgeValid {
+    @Description("Check that valid age is in range 0 < age < 130 years")
+    @Story("StoryID - 1")
     @Test(dataProvider = "age Valid", dataProviderClass = TestDataProvider.class)
     public void testAgeIsValid(int num9, int num10) {
         Person person = new Person("Olena","Volosyna",35,"Yes");

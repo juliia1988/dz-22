@@ -1,5 +1,7 @@
 package org.example;
 
+import io.qameta.allure.Step;
+
 public class Person {
     String firstName;
     String lastName;
@@ -54,6 +56,7 @@ public class Person {
         System.out.println(firstName + " " + lastName + " " + age + " " + partner);
     }
 
+    @Step("Fill the age data to check if its valid")
     public boolean ageIsValid(int num1, int num2){
         if ( 0 < num1 && num2 < 130){
             System.out.println("Age is valid");
